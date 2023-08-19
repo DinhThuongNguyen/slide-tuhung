@@ -1,0 +1,14 @@
+.slide {
+  max-width: 1360px;
+  margin: auto;
+}
+
+.slide-content {
+  width: 100%;
+  padding: 20px 5px;
+  margin-bottom: 20px;
+}
+.block-img {
+  height: 150px;
+  position: relative;
+}

@@ -1,0 +1,38 @@
+.header {
+  padding: 15px 40px;
+  position: fixed;
+  width: 100vw;
+  z-index: 100;
+  top: 0;
+  background: white;
+  /* max-width: 1360px; */
+  
+  .nav-link {
+    color: #002887;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+  }
+  .nav-link-dropdown {
+    color: #002887;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    width: 180px;
+    padding-bottom: 15px;
+  }
+}
+
+.header-content {
+  max-width: 1360px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-content-logo > img {
+  border-radius: 5px;
+}
